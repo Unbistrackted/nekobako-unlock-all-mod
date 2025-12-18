@@ -16,7 +16,7 @@ A plugin for [Skyline](https://github.com/skyline-dev/skyline) that changes the 
 
 ❗️This plugin only works with **UPDATE VERSION** ``0.0.3.0/v196608`` (You can check the version by pressing ``+`` on the game, at the top-left)
 
-You can download the latest version of NekobakoOpeningMod [here](https://github.com/Unbistrackted/nekobako-unlock-all-mod/releases/latest).
+You can download the latest version of nekobako-unlock-all-mod [here](https://github.com/Unbistrackted/nekobako-unlock-all-mod/releases/latest).
 
 After downloading, drop the contents of the .zip file into the root of your SD card.
 

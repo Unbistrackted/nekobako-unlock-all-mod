@@ -74,7 +74,7 @@ unsafe fn unlock_all_function(param_1: u64, param_2: *mut i32, param_3: *mut i32
     persist_set(persist_offset, 0, 30);
 }
 
-#[skyline::main(name = "NekobakoUnlockAllMod")]
+#[skyline::main(name = "nekobako-unlock-all-mod")]
 pub fn main() {
     if is_enabled!(*CONFIG) {
         install_hook!(unlock_all_function);

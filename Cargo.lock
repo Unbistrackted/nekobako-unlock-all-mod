@@ -75,8 +75,8 @@ dependencies = [
 ]
 
 [[package]]
-name = "nekobako_unlock_all_mod"
-version = "0.1.0"
+name = "nekobako-unlock-all-mod"
+version = "1.0.0"
 dependencies = [
  "nekobako-plugin-utils",
  "once_cell",

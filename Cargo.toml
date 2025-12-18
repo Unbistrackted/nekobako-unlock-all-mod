@@ -1,13 +1,15 @@
 [package]
-name = "nekobako_unlock_all_mod"
-version = "0.1.0"
+name = "nekobako-unlock-all-mod"
+version = "1.0.0"
 authors = ["Unbistrackted", "DCNick3"]
 edition = "2021"
 readme = "README.md"
+repository = "https://github.com/Unbistrackted/nekobako-unlock-all-mod"
 keywords = ["skyline", "mod", "switch", "rust"]
 
 [package.metadata.skyline]
-titleid = "01006A300BA2C000" # UMINEKO
+titleid = "01006A300BA2C000" # Umineko no Naku Koro ni Saku ~Nekobako to Musou no Koukyoukyoku~
+custom-npdm = "../main.npdm"
 
 [lib]
 crate-type = ["cdylib"]

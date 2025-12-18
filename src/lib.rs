@@ -43,7 +43,7 @@ unsafe fn unlock_all_function(param_1: u64, param_2: *mut i32, param_3: *mut i32
     if *param_2 == 1 && *param_3 == 0 {
         for i in 0..=48 {
             if persist_get(persist_offset, i) == 0 {
-                persist_set(persist_offset, i, 1);
+                persist_set(persist_offset, i, 3);
             }
         }
 
